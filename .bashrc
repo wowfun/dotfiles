@@ -9,8 +9,16 @@ export NO_PROXY="$no_proxy"
 
 export KB="/mnt/d/KBs/kb/"
 
-# deepseek harness
-alias dsh="npx --prefer-online @deepseek-ai/dsh@latest web"
+# aliases
+alias tat="tmux a -t"
+
+alias ocbp="opencode --auto"
+alias ccbp="claude --dangerously-skip-permissions"
+alias gkbp="grok --always-approve"
+## deepseek harness
+alias dsh="npx --prefer-online @deepseek-ai/dsh@latest"
+alias dshw="npx --prefer-online @deepseek-ai/dsh@latest web"
+alias dsht="npx --prefer-online @deepseek-ai/dsh@latest --profile dsh-tui"
 
 # psychevo
 export PEVO="/home/kevin/Projects/psychevo/target/debug/"
