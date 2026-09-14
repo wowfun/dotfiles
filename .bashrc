@@ -11,14 +11,20 @@ export KB="/mnt/d/KBs/kb/"
 
 # aliases
 alias tat="tmux a -t"
+alias uti="uv tool install"
+alias duh="du -hd 1"
 
+alias cxbp="codex --dangerously-bypass-approvals-and-sandbox"
 alias ocbp="opencode --auto"
 alias ccbp="claude --dangerously-skip-permissions"
 alias gkbp="grok --always-approve"
+alias kmbp="kimi --auto"
 ## deepseek harness
 alias dsh="npx --prefer-online @deepseek-ai/dsh@latest"
 alias dshw="npx --prefer-online @deepseek-ai/dsh@latest web"
 alias dsht="npx --prefer-online @deepseek-ai/dsh@latest --profile dsh-tui"
+alias qdbp="qodercn --dangerously-skip-permissions"
+alias dvbp="devin --permission-mode Bypass"
 
 # psychevo
 export PEVO="/home/kevin/Projects/psychevo/target/debug/"
