@@ -12,7 +12,7 @@ export KB="/mnt/d/KBs/kb/"
 # aliases
 alias tat="tmux a -t"
 alias uti="uv tool install"
-alias duh="du -hd 1"
+alias duh="du -hd 1 | sort -hr"
 
 alias cxbp="codex --dangerously-bypass-approvals-and-sandbox"
 alias ocbp="opencode --auto"
