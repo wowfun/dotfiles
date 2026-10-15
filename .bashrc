@@ -13,6 +13,7 @@ export KB="/mnt/d/KBs/kb/"
 alias tat="tmux a -t"
 alias uti="uv tool install"
 alias duh="du -hd 1 | sort -hr"
+alias hfc="hgc file clean -r project_default ./ -y"
 
 alias cxbp="codex --dangerously-bypass-approvals-and-sandbox"
 alias ocbp="opencode --auto"
